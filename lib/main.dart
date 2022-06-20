@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter ',
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
@@ -49,14 +49,11 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     var children2 = <Widget>[
-              const Text(
-                'Conter values',
-              ),
-              Text('$_counter',
-                  style: Theme.of(context)
-                      .textTheme
-                    .headline1
-            ];
+      const Text(
+        'Conter values',
+      ),
+      Text('$_counter', style: Theme.of(context).textTheme.headline1)
+    ];
     return Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
